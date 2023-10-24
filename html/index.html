@@ -1,77 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>My Website</title>
-    <link rel="stylesheet" href="../JavaScript/script.js" />
-    
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>InClass2</title>
+    <link rel="stylesheet" href="../html/style.css" />
   </head>
+
   <body>
-    <div id="container">
-      <div class="top-box">
-        <p>
-          Welcome to the Interactive ABCs of CSS Technology learning Website
-        </p>
+    <div class="welcome_header">
+      Welcome to the Interactive ABC's of CSS Technology Learning Website
+    </div>
+    <div class="dispaly_header">
+      Clock on the buttons below to reveal and learn the CSS technology features
+      of the corresponding letters
+    </div>
+    <div class="img_box">
+      <div class="img1_box">
+        <img
+          class="img1"
+          src="../images/css-letter-a.png"
+          alt="css-letter-a"
+        />
+        <input
+          type="button"
+          class="hide_img1"
+          value="Hide Result"
+          onclick="hideImg1()"
+        />
       </div>
-      <div class="bottom-box">
-        <p>
-          Click on the buttons below to reveal and learn the CSS technology
-          features of the corresponding letters
-        </p>
+      <div class="img2_box">
+        <img
+          class="img2"
+          src="../images/css-letter-b.png"
+          alt="css-letter-b"
+        />
+        <input
+          type="button"
+          class="hide_img2"
+          value="Hide Result"
+          onclick="hideImg2()"
+        />
+      </div>
+      <div class="img3_box">
+        <img
+          class="img3"
+          src="../images/css-letter-c.png"
+          alt="css-letter-c"
+        />
+        <input
+          type="button"
+          class="hide_img3"
+          value="Hide Result"
+          onclick="hideImg3()"
+        />
       </div>
     </div>
-    <div class="button-container">
-      <div class="img-button-group">
-        <div class="img-container" id="a-container">
-          <img
-            id="img-a"
-            src="../images/css-letter-a.png"
-            alt="A for aspect-ratio"
-            class="hidden"
-          />
-          <br />
-          <button class="hide-button hidden" onclick="hideImage('a')">
-            Hide Result
-          </button>
-        </div>
-        <button onclick="revealFeature('a')">A</button>
-      </div>
-
-      <div class="img-button-group">
-        <div class="img-container" id="b-container">
-          <img
-            id="img-b"
-            src="../images/css-letter-b.png"
-            alt="B for border"
-            class="hidden"
-          />
-          <br />
-          <button class="hide-button hidden" onclick="hideImage('b')">
-            Hide Result
-          </button>
-        </div>
-        <button onclick="revealFeature('b')">B</button>
-      </div>
-
-      <div class="img-button-group">
-        <div class="img-container" id="c-container">
-          <img
-            id="img-c"
-            src="../images/css-letter-c.png"
-            alt="C for colors"
-            class="hidden"
-          />
-          <br />
-          <button class="hide-button hidden" onclick="hideImage('c')">
-            Hide Result
-          </button>
-        </div>
-        <button onclick="revealFeature('c')">C</button>
-      </div>
+    <div class="btn_box">
+      <input type="button" class="btn1" value="A" onclick="showImg1()" />
+      <input type="button" class="btn2" value="B" onclick="showImg2()" />
+      <input type="button" class="btn3" value="C" onclick="showImg3()" />
     </div>
-
     <script src="../JavaScript/script.js"></script>
   </body>
 </html>

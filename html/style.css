@@ -1,0 +1,512 @@
+body {
+  display: inline;
+
+  width: auto;
+  height: auto;
+/* Adjust button styles as needed */
+/* create a background color; */
+
+  justify-content: center;
+  align-items: center;
+
+  margin: none;
+}
+
+.welcome_header {
+  display: flex;
+
+  width: 98vw;
+  height: 10vh;
+
+ /* create a background color; */
+ /* Add space between the image and button */
+
+  outline-style: solid;
+  outline-color: rgb(191, 121, 46);
+
+  margin-left: 1vw;
+
+  justify-content: center;
+  align-items: center;
+
+  font-size: 1.8em;
+}
+
+.dispaly_header {
+  display: flex;
+
+  width: 98vw;
+  height: 10vh;
+
+  /* create a background color; */
+
+  outline-style: solid;
+  outline-color: rgb(205, 149, 30);
+
+  margin-left: 1vw;
+  margin-top: 2vw;
+
+  justify-content: center;
+  align-items: center;
+
+  font-size: 1.8em;
+}
+
+.img_box {
+  display: flex;
+
+  height: 60vh;
+  width: 100vw;
+
+ /* create a background color; */
+
+  justify-content: center;
+  align-items: center;
+}
+
+.img1_box {
+  display: block;
+
+  width: 28vw;
+  height: 60vh;
+
+/* create a background color; */
+}
+
+.img1 {
+  display: flex;
+
+  height: 45vh;
+  margin-top: 1vh;
+  margin-left: 3.5vw;
+
+  visibility: hidden;
+}
+
+.hide_img1 {
+  display: flex;
+
+  width: 19vw;
+  height: 5vh;
+
+  margin-top: 2vh;
+  margin-left: 4.5vw;
+
+  justify-content: center;
+  align-items: center;
+
+  font-size: 1.5em;
+
+  color: white;
+  background-color: lightblue;
+
+  display: flex;
+  visibility: hidden;
+}
+
+.img2_box {
+  display: block;
+
+  width: 28vw;
+  height: 60vh;
+
+  /* create a background color; */
+
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+
+.img2 {
+  display: flex;
+
+  height: 45vh;
+  margin-top: 1vh;
+  margin-left: 3.5vw;
+
+  visibility: hidden;
+}
+
+.hide_img2 {
+  display: flex;
+
+  width: 19vw;
+  height: 5vh;
+
+  margin-top: 2vh;
+  margin-left: 4.5vw;
+
+  justify-content: center;
+  align-items: center;
+
+  font-size: 1.5em;
+
+  color: white;
+  background-color: lightblue;
+
+  display: flex;
+  visibility: hidden;
+}
+
+.img3_box {
+  display: block;
+
+  width: 28vw;
+  height: 60vh;
+
+/* create a background color; */
+}
+/* Adjust button styles as needed */
+.img3 {
+  display: flex;
+
+  height: 45vh;
+  margin-top: 1vh;
+  margin-left: 3.5vw;
+
+  visibility: hidden;
+}
+
+.hide_img3 {
+  display: flex;
+
+  width: 19vw;
+  height: 5vh;
+
+  margin-top: 2vh;
+  margin-left: 4.5vw;
+
+  justify-content: center;
+  align-items: center;
+
+  font-size: 1.5em;
+
+  color: white;
+  background-color: lightblue;
+
+  display: flex;
+  visibility: hidden;
+}
+
+.btn_box {
+  display: flex;
+
+  width: 100vw;
+  height: 10vh;
+
+/* create a background color; */
+
+  justify-content: center;
+  align-items: center;
+}
+
+.btn1 {
+  display: flex;
+
+  width: 15vw;
+  height: 8vh;
+
+  justify-content: center;
+  align-items: center;
+
+  font-size: 2em;
+
+  border: none;
+  outline-style: solid;
+  outline-color: gold;
+
+  background-color: white;
+}
+
+.btn2 {
+  display: flex;
+
+  width: 15vw;
+  height: 8vh;
+
+  margin-left: 18vw;
+  margin-right: 18vw;
+
+  justify-content: center;
+  align-items: center;
+
+  font-size: 2em;
+
+  border: none;
+  outline-style: solid;
+  outline-color: gold;
+
+  background-color: white;
+}
+
+.btn3 {
+  display: flex;
+
+  width: 15vw;
+  height: 8vh;
+
+  justify-content: center;
+  align-items: center;
+
+  font-size: 2em;
+
+  border: none;
+  outline-style: solid;
+  outline-color: gold;
+
+  background-color: white;
+}body {
+  display: inline;
+
+  width: auto;
+  height: auto;
+
+/* create a background color; */
+
+  justify-content: center;
+  align-items: center;
+
+  margin: none;
+}
+
+.welcome_header {
+  display: flex;
+
+  width: 98vw;
+  height: 10vh;
+
+  /* create a background color; */
+  outline-style: solid;
+  outline-color: gold;
+
+  margin-left: 1vw;
+
+  justify-content: center;
+  align-items: center;
+
+  font-size: 1.8em;
+}
+
+.dispaly_header {
+  display: flex;
+
+  width: 98vw;
+  height: 10vh;
+
+/* create a background color; */
+
+  outline-style: solid;
+  outline-color: gold;
+
+  margin-left: 1vw;
+  margin-top: 2vw;
+
+  justify-content: center;
+  align-items: center;
+
+  font-size: 1.8em;
+}
+
+.img_box {
+  display: flex;
+
+  height: 60vh;
+  width: 100vw;
+
+/* create a background color; */
+
+  justify-content: center;
+  align-items: center;
+}
+
+.img1_box {
+  display: block;
+
+  width: 28vw;
+  height: 60vh;
+
+  /* create a background color; */
+}
+
+.img1 {
+  display: flex;
+
+  height: 45vh;
+  margin-top: 1vh;
+  margin-left: 3.5vw;
+
+  visibility: hidden;
+}
+
+.hide_img1 {
+  display: flex;
+
+  width: 19vw;
+  height: 5vh;
+
+  margin-top: 2vh;
+  margin-left: 4.5vw;
+
+  justify-content: center;
+  align-items: center;
+
+  font-size: 1.5em;
+
+  color: white;
+  background-color: lightblue;
+
+  display: flex;
+  visibility: hidden;
+}
+
+.img2_box {
+  display: block;
+
+  width: 28vw;
+  height: 60vh;
+
+  /* create a background color; */
+
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+
+.img2 {
+  display: flex;
+
+  height: 45vh;
+  margin-top: 1vh;
+  margin-left: 3.5vw;
+
+  visibility: hidden;
+}
+
+.hide_img2 {
+  display: flex;
+
+  width: 19vw;
+  height: 5vh;
+
+  margin-top: 2vh;
+  margin-left: 4.5vw;
+
+  justify-content: center;
+  align-items: center;
+
+  font-size: 1.5em;
+
+  color: white;
+  background-color: lightblue;
+
+  display: flex;
+  visibility: hidden;
+}
+
+.img3_box {
+  display: block;
+
+  width: 28vw;
+  height: 60vh;
+
+/* create a background color; */
+}
+
+.img3 {
+  display: flex;
+
+  height: 45vh;
+  margin-top: 1vh;
+  margin-left: 3.5vw;
+
+  visibility: hidden;
+}
+
+.hide_img3 {
+  display: flex;
+
+  width: 19vw;
+  height: 5vh;
+
+  margin-top: 2vh;
+  margin-left: 4.5vw;
+
+  justify-content: center;
+  align-items: center;
+
+  font-size: 1.5em;
+
+  color: white;
+  background-color: lightblue;
+
+  display: flex;
+  visibility: hidden;
+}
+
+.btn_box {
+  display: flex;
+
+  width: 100vw;
+  height: 10vh;
+
+/* create a background color; */
+
+  justify-content: center;
+  align-items: center;
+}
+
+.btn1 {
+  display: flex;
+
+  width: 15vw;
+  height: 8vh;
+
+  justify-content: center;
+  align-items: center;
+
+  font-size: 2em;
+
+  border: none;
+  outline-style: solid;
+  outline-color: gold;
+
+  background-color: white;
+}
+
+.btn2 {
+  display: flex;
+
+  width: 15vw;
+  height: 8vh;
+
+  margin-left: 18vw;
+  margin-right: 18vw;
+
+  justify-content: center;
+  align-items: center;
+
+  font-size: 2em;
+
+  border: none;
+  outline-style: solid;
+  outline-color: gold;
+
+  background-color: white;
+}
+
+.btn3 {
+  display: flex;
+
+  width: 15vw;
+  height: 8vh;
+
+  justify-content: center;
+  align-items: center;
+
+  font-size: 2em;
+
+  border: none;
+  outline-style: solid;
+  outline-color: gold;
+
+  background-color: white;
+}
+/* Adjust button styles as needed */
