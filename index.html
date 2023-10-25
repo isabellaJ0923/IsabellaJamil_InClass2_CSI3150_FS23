@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>In class 2</title>
+    <link rel="stylesheet" href="css/style.css" />
+    
+  </head>
+  <body>
+    <div id="container">
+      <div class="top-box">
+        <p>
+          Welcome to the Interactive ABCs of CSS Technology learning Website
+        </p>
+      </div>
+      <div class="bottom-box">
+        <p>
+          Click on the buttons below to reveal and learn the CSS technology
+          features of the corresponding letters
+        </p>
+      </div>
+    </div>
+    <div class="button-container">
+      <div class="img-button-group">
+        <div class="img-container" id="a-container">
+          <img
+            id="img-a"
+            src="./images/css-letter-a.png"
+            alt="A for aspect-ratio"
+            class="hidden"
+          />
+          <br />
+          <button class="hide-button hidden" onclick="hideImage('a')">
+            Hide Result
+          </button>
+        </div>
+        <button onclick="revealFeature('a')">A</button>
+      </div>
+
+      <div class="img-button-group">
+        <div class="img-container" id="b-container">
+          <img
+            id="img-b"
+            src="./images/css-letter-b.png"
+            alt="B for border"
+            class="hidden"
+          />
+          <br />
+          <button class="hide-button hidden" onclick="hideImage('b')">
+            Hide Result
+          </button>
+        </div>
+        <button onclick="revealFeature('b')">B</button>
+      </div>
+
+      <div class="img-button-group">
+        <div class="img-container" id="c-container">
+          <img
+            id="img-c"
+            src="./images/css-letter-c.png"
+            alt="C for colors"
+            class="hidden"
+          />
+          <br />
+          <button class="hide-button hidden" onclick="hideImage('c')">
+            Hide Result
+          </button>
+        </div>
+        <button onclick="revealFeature('c')">C</button>
+      </div>
+    </div>
+
+    <script src="js/"></script>
+  </body>
+</html>
